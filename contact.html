@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Connect | VZ</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+<header>
+  <div class="logo">VZ<span>.</span></div>
+  <nav id="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html" class="active">Connect</a>
+  </nav>
+  <button id="burger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main class="page fade contact">
+  <h1>Let’s Build Something</h1>
+  <p>Drop a message—partnership offers, contract work, or just a friendly hello.</p>
+
+  <form action="https://formspree.io/f/{your-id}" method="POST" class="contact-form">
+    <label>
+      Name
+      <input required type="text" name="name" />
+    </label>
+    <label>
+      Email
+      <input required type="email" name="_replyto" />
+    </label>
+    <label>
+      Message
+      <textarea required name="message" rows="5"></textarea>
+    </label>
+    <button type="submit" class="btn large">Send</button>
+  </form>
+
+  <div class="social">
+    <a href="https://t.me/yourhandle" target="_blank" rel="noopener">Telegram</a>
+    <a href="mailto:hello@vz.dev">Email</a>
+    <a href="https://github.com/yourgithub" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</main>
+
+<footer>© <span id="year"></span> Vladislav Zholudz</footer>
+</body>
+</html>
