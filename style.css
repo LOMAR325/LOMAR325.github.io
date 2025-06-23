@@ -158,21 +158,40 @@ nav a.active::after { width: 100%; }
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.5rem;
 }
+.page-title {
+  margin-bottom: 1.2em;
+  font-size: 42px;
+  font-weight: bold;
+}
+.clickable-block {
+  display: block; /* чтобы ссылка была блочной */
+  text-decoration: none; /* убрать подчёркивание */
+  color: inherit; /* сохранить цвет текста */
+}
 .card {
+  display: flex;
+  flex-direction: column;
   background: #1a1a1d;
   padding: 1.5rem;
   border-radius: var(--radius);
-  position: relative;
   overflow: hidden;
   transition: transform 0.3s var(--ease);
 }
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #0f9d58;
+}
+
 .card:hover { transform: translateY(-4px); }
-.card h2 { margin-bottom: 0.5rem; }
+.card-title { margin-bottom: 0.5rem; }
 .tag {
-  position: absolute;
+  display: flex;
+  justify-self: flex-end;
   top: 1rem; right: 1rem;
   font-size: 0.7rem;
   padding: 0.2rem 0.5rem;
+  margin-bottom: 0px;
   border-radius: 999px;
 }
 .tag.success { background: var(--accent); }
