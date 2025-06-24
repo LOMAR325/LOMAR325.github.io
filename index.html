@@ -3,49 +3,226 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vladislav Zholudz — Future 30-Under-30</title>
+  <title>Vladislav Zholudz — Russian Interview Specialist at Trajecta</title>
+  <meta name="description" content="Vladislav Zholudz, Russian Interview Specialist at Trajecta.org. Swimming champion turned tech professional, ready for high-profile interviews with industry leaders.">
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <script defer src="scripts.js"></script>
 </head>
 <body>
-<header>
-  <a href="index.html" class="clickable-block">
+<header class="header">
+  <a href="index.html" class="logo-link">
     <div class="logo">VZ<span>.</span></div>
   </a>
-  <nav id="nav">
-    <a href="index.html" class="active">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Connect</a>
+  <nav id="nav" class="nav">
+    <a href="index.html" class="nav-link active">Home</a>
+    <a href="about.html" class="nav-link">Story</a>
+    <a href="trajecta.html" class="nav-link">Trajecta</a>
+    <a href="experience.html" class="nav-link">Experience</a>
+    <a href="media.html" class="nav-link">Media</a>
+    <a href="contact.html" class="nav-link">Connect</a>
   </nav>
-  <button id="burger" aria-label="Toggle menu">
-    <span></span><span></span><span></span>
-  </button>
+  <div class="header-controls">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon">🌙</span>
+    </button>
+    <button id="burger" class="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
 </header>
 
-<main class="hero fade">
-  <img src="images/profile.jpg" alt="Vladislav Zholudz portrait" class="avatar" />
-  <div>
-    <h1>Vladislav Zholudz</h1>
-    <p class="tagline">Building <strong>$1M</strong> before 30, one line of code at a time.</p>
-    <a href="about.html" class="btn">My Journey</a>
-    <a href="contact.html" class="btn outline">Let's Partner</a>
+<main class="hero-section">
+  <div class="hero-content fade">
+    <div class="hero-text">
+      <div class="hero-badge">
+        <span class="badge-icon">🎤</span>
+        <span>Russian Interview Specialist at Trajecta.org</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="gradient-text">Vladislav Zholudz</span>
+      </h1>
+      <p class="hero-subtitle">
+        Russian Interview Specialist at Trajecta, the <strong>AI-driven platform</strong> mapping global influence. 
+        From competitive swimming champion to conducting interviews with high-profile industry leaders.
+      </p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">$1M</span>
+          <span class="stat-label">Target by 30</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">8 Years</span>
+          <span class="stat-label">Swimming Champion</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">4 Years</span>
+          <span class="stat-label">C++ & Frontend</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="trajecta.html" class="btn btn-primary">
+          <span>Explore Trajecta</span>
+          <span class="btn-icon">→</span>
+        </a>
+        <a href="contact.html" class="btn btn-outline">
+          <span>Schedule Interview</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="profile-card">
+        <img src="images/official in a tie and jacket.jpg" alt="Vladislav Zholudz - Professional Portrait" class="profile-image" />
+        <div class="profile-overlay">
+          <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span>Available for interviews</span>
+          </div>
+        </div>
+      </div>
+      <div class="floating-elements">
+        <div class="floating-card card-1">
+          <span class="card-icon">🎤</span>
+          <span>Interview Expert</span>
+        </div>
+        <div class="floating-card card-2">
+          <span class="card-icon">🏆</span>
+          <span>Award Winner</span>
+        </div>
+        <div class="floating-card card-3">
+          <span class="card-icon">🌐</span>
+          <span>Global Vision</span>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 
-<section class="stats fade">
-  <div><span>8 yrs</span> Competitive Swimming</div>
-  <div><span>4 yrs</span> C++ & Front-End</div>
-  <div><span>∞</span> Growth Mindset</div>
+<section class="featured-section">
+  <div class="container">
+    <h2 class="section-title fade">Trajecta Platform Expertise</h2>
+    <div class="project-showcase fade">
+      <div class="project-content">
+        <div class="project-header">
+          <h3>Trajecta.org</h3>
+          <span class="project-status">Team Member</span>
+        </div>
+        <p class="project-description">
+          As Russian Interview Specialist at Trajecta, I help map global influence through strategic interviews
+          with high-profile individuals. Think "Yandex for People" - where my role involves conducting 
+          in-depth conversations that reveal professional trajectories and influence patterns.
+        </p>
+        <div class="project-features">
+          <div class="feature">
+            <span class="feature-icon">🎤</span>
+            <span>Russian-Language Interviews</span>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">🤖</span>
+            <span>AI-Powered Analysis</span>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">🔗</span>
+            <span>Professional Networking</span>
+          </div>
+        </div>
+        <a href="trajecta.html" class="project-link">
+          Learn More <span>→</span>
+        </a>
+      </div>
+      <div class="project-visual">
+        <div class="mockup-container">
+          <div class="mockup-screen">
+            <div class="mockup-header">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mockup-content">
+              <div class="rank-item">
+                <span class="rank">#1</span>
+                <span class="name">Elon Musk</span>
+                <span class="score">98.7</span>
+              </div>
+              <div class="rank-item">
+                <span class="rank">#2</span>
+                <span class="name">Lex Fridman</span>
+                <span class="score">94.2</span>
+              </div>
+              <div class="rank-item">
+                <span class="rank">#47</span>
+                <span class="name">Vladislav Z.</span>
+                <span class="score">76.8</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="cta fade">
-  <h2>Got an idea? Let’s bring it to life together – feel free to reach out!</h2>
-  <a href="contact.html" class="btn large">Contact with me</a>
+<section class="recognition-section">
+  <div class="container">
+    <h2 class="section-title fade">Recognition & Achievements</h2>
+    <div class="recognition-grid fade">
+      <div class="recognition-item">
+        <img src="images/cyf-junor-olympiad-volunteering.jpg" alt="Junior Olympiad Volunteering" class="recognition-image" />
+        <div class="recognition-content">
+          <h4>Youth Leadership</h4>
+          <p>Active volunteer at Junior Olympiad events, developing leadership qualities ideal for conducting high-level interviews</p>
+        </div>
+      </div>
+      <div class="recognition-item">
+        <img src="images/jacketed_official.jpg" alt="Professional Achievement" class="recognition-image" />
+        <div class="recognition-content">
+          <h4>Academic Excellence</h4>
+          <p>Top performer at BSTU with focus on programming and technical communication skills</p>
+        </div>
+      </div>
+      <div class="recognition-item">
+        <img src="images/tie-dye.jpg" alt="Creative Innovation" class="recognition-image" />
+        <div class="recognition-content">
+          <h4>Creative Problem Solving</h4>
+          <p>Balancing technical expertise with creative approaches to extracting insights from complex conversations</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<footer>
-  © <span id="year"></span> Vladislav Zholudz
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content fade">
+      <h2>Ready for your next high-profile interview?</h2>
+      <p>Let's explore meaningful conversations that reveal the systematic patterns behind extraordinary success.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary btn-large">
+          Schedule Interview
+        </a>
+        <a href="media.html" class="btn btn-outline btn-large">
+          Media Kit
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="logo">VZ<span>.</span></div>
+        <p>Russian Interview Specialist at Trajecta.org</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://trajecta.org" target="_blank">Trajecta.org</a>
+        <a href="mailto:interviews@vladislav-zholudz.com">Email</a>
+        <a href="https://linkedin.com/in/vladislav-zholudz" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Vladislav Zholudz. All rights reserved.</p>
+    </div>
+  </div>
 </footer>
 </body>
 </html>

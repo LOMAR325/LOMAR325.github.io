@@ -2,53 +2,614 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Connect | VZ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Vladislav Zholudz — Russian Interview Specialist at Trajecta</title>
+  <meta name="description" content="Schedule an interview or discussion with Vladislav Zholudz, Russian Interview Specialist at Trajecta.org. Available for high-profile interviews and media appearances.">
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <script defer src="scripts.js"></script>
 </head>
 <body>
-<header>
-  <a href="index.html" class="clickable-block">
+<header class="header">
+  <a href="index.html" class="logo-link">
     <div class="logo">VZ<span>.</span></div>
   </a>
-  <nav id="nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html" class="active">Connect</a>
+  <nav id="nav" class="nav">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">Story</a>
+    <a href="trajecta.html" class="nav-link">Trajecta</a>
+    <a href="experience.html" class="nav-link">Experience</a>
+    <a href="media.html" class="nav-link">Media</a>
+    <a href="contact.html" class="nav-link active">Connect</a>
   </nav>
-  <button id="burger" aria-label="Toggle menu">
-    <span></span><span></span><span></span>
-  </button>
+  <div class="header-controls">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon">🌙</span>
+    </button>
+    <button id="burger" class="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
 </header>
 
-<main class="page fade contact">
-  <h1>Let's Build Something</h1>
-  <p>Drop a message—partnership offers, contract work, or just a friendly hello.</p>
+<main class="page-content">
+  <section class="hero-banner">
+    <div class="container">
+      <div class="hero-banner-content fade">
+        <h1 class="page-title">Let's Connect</h1>
+        <p class="page-subtitle">Ready for your next high-profile interview? Let's discuss opportunities for meaningful conversations.</p>
+      </div>
+    </div>
+  </section>
 
-  <form action="https://formspree.io/f/{your-id}" method="POST" class="contact-form">
-    <label>
-      Name
-      <input required type="text" name="name" />
-    </label>
-    <label>
-      Email
-      <input required type="email" name="_replyto" />
-    </label>
-    <label>
-      Message
-      <textarea required name="message" rows="5"></textarea>
-    </label>
-    <button type="submit" class="btn large">Send</button>
-  </form>
+  <section class="contact-intro">
+    <div class="container">
+      <div class="intro-grid fade">
+        <div class="intro-content">
+          <h2>Russian Interview Specialist at Trajecta</h2>
+          <p class="intro-text">
+            As Trajecta's Russian Interview Specialist, I bring a unique combination of competitive excellence, 
+            technical depth, and systematic thinking to every conversation. Whether you're looking to discuss 
+            the future of AI-powered influence mapping, Eastern European innovation, or the mindset principles 
+            that drive extraordinary achievement, I'm ready to dive deep.
+          </p>
+          <div class="specialties">
+            <div class="specialty-item">
+              <span class="specialty-icon">🎤</span>
+              <span>High-Profile Interviews</span>
+            </div>
+            <div class="specialty-item">
+              <span class="specialty-icon">🇷🇺</span>
+              <span>Russian-Language Expertise</span>
+            </div>
+            <div class="specialty-item">
+              <span class="specialty-icon">🧠</span>
+              <span>Technical Deep Dives</span>
+            </div>
+            <div class="specialty-item">
+              <span class="specialty-icon">🏆</span>
+              <span>Excellence Mindset</span>
+            </div>
+          </div>
+        </div>
+        <div class="intro-visual">
+          <img src="images/profile.jpg" alt="Vladislav Zholudz" class="contact-image" />
+          <div class="availability-status">
+            <span class="status-dot"></span>
+            <span>Available for interviews</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div class="social">
-    <a href="https://t.me/yourhandle" target="_blank" rel="noopener">Telegram</a>
-    <a href="mailto:hello@vz.dev">Email</a>
-    <a href="https://github.com/yourgithub" target="_blank" rel="noopener">GitHub</a>
-  </div>
+  <section class="contact-methods">
+    <div class="container">
+      <h2 class="section-title fade">Get In Touch</h2>
+      <div class="methods-grid fade">
+        <div class="method-card priority">
+          <div class="method-icon">🎯</div>
+          <h3>Interview Requests</h3>
+          <p>For podcast appearances, media interviews, and speaking opportunities</p>
+          <a href="mailto:interviews@vladislav-zholudz.com" class="method-link">
+            interviews@vladislav-zholudz.com
+          </a>
+          <span class="response-time">Response within 24 hours</span>
+        </div>
+        
+        <div class="method-card">
+          <div class="method-icon">💼</div>
+          <h3>Professional Inquiries</h3>
+          <p>Technical discussions, collaboration opportunities, and business connections</p>
+          <a href="mailto:contact@vladislav-zholudz.com" class="method-link">
+            contact@vladislav-zholudz.com
+          </a>
+          <span class="response-time">Response within 48 hours</span>
+        </div>
+        
+        <div class="method-card">
+          <div class="method-icon">📰</div>
+          <h3>Media & Press</h3>
+          <p>Press releases, media kits, and journalist inquiries</p>
+          <a href="mailto:media@vladislav-zholudz.com" class="method-link">
+            media@vladislav-zholudz.com
+          </a>
+          <span class="response-time">Response within 24 hours</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-form-section">
+    <div class="container">
+      <div class="form-container fade">
+        <h2>Schedule an Interview</h2>
+        <p class="form-description">
+          Ready to dive deep into topics that matter? Use this form to propose an interview or discussion. 
+          I'm particularly interested in conversations about competitive excellence, technical innovation, 
+          and the future of professional influence mapping.
+        </p>
+        
+        <form class="interview-form" id="interviewForm">
+          <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="organization">Organization/Company</label>
+            <input type="text" id="organization" name="organization">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="language">Preferred Language</label>
+            <select id="language" name="language">
+              <option value="english">English</option>
+              <option value="russian">Russian</option>
+              <option value="both">Both (Bilingual)</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="format">Interview Format</label>
+            <select id="format" name="format">
+              <option value="video">Video Interview</option>
+              <option value="podcast">Podcast</option>
+              <option value="written">Written Q&A</option>
+              <option value="live">Live Event/Panel</option>
+              <option value="other">Other (specify in message)</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="topics">Key Topics *</label>
+            <div class="topic-chips">
+              <input type="checkbox" id="trajecta" name="topics" value="trajecta">
+              <label for="trajecta" class="chip-label">Trajecta Platform</label>
+              
+              <input type="checkbox" id="excellence" name="topics" value="excellence">
+              <label for="excellence" class="chip-label">Excellence Mindset</label>
+              
+              <input type="checkbox" id="tech" name="topics" value="tech">
+              <label for="tech" class="chip-label">Technical Innovation</label>
+              
+              <input type="checkbox" id="eastern-europe" name="topics" value="eastern-europe">
+              <label for="eastern-europe" class="chip-label">Eastern European Scene</label>
+              
+              <input type="checkbox" id="ai" name="topics" value="ai">
+              <label for="ai" class="chip-label">AI & Future Tech</label>
+              
+              <input type="checkbox" id="business" name="topics" value="business">
+              <label for="business" class="chip-label">Entrepreneurship</label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Interview Proposal *</label>
+            <textarea id="message" name="message" rows="6" placeholder="Please describe your interview concept, target audience, key questions you'd like to explore, and any specific angles you're interested in discussing..." required></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="timeline">Preferred Timeline</label>
+            <input type="text" id="timeline" name="timeline" placeholder="e.g., Next 2 weeks, End of month, Flexible">
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-large submit-btn">
+            <span>Send Interview Request</span>
+            <span class="btn-icon">→</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="quick-facts">
+    <div class="container">
+      <h2 class="section-title fade">Quick Facts</h2>
+      <div class="facts-grid fade">
+        <div class="fact-item">
+          <div class="fact-icon">📍</div>
+          <h4>Location</h4>
+          <p>Minsk, Belarus (UTC+3)</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">🗣️</div>
+          <h4>Languages</h4>
+          <p>Russian (native), English (fluent)</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">⏰</div>
+          <h4>Best Times</h4>
+          <p>9 AM - 6 PM UTC+3 (weekdays)</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">🎯</div>
+          <h4>Expertise</h4>
+          <p>High-profile Russian interviews</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">🏢</div>
+          <h4>Role</h4>
+          <p>Russian Interview Specialist at Trajecta</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">📱</div>
+          <h4>Platforms</h4>
+          <p>Video, Audio, Written, Live Events</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
-<footer>© <span id="year"></span> Vladislav Zholudz</footer>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="logo">VZ<span>.</span></div>
+        <p>Russian Interview Specialist at Trajecta.org</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://trajecta.org" target="_blank">Trajecta.org</a>
+        <a href="mailto:interviews@vladislav-zholudz.com">Interview Requests</a>
+        <a href="https://linkedin.com/in/vladislav-zholudz" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Vladislav Zholudz. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+/* Contact page specific styles */
+.page-content {
+  padding-top: var(--header-height);
+}
+
+.hero-banner {
+  background: var(--bg-primary);
+  padding: var(--space-20) 0 var(--space-16);
+  text-align: center;
+  position: relative;
+}
+
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 20%, rgba(0, 102, 255, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.contact-intro {
+  padding: var(--space-24) 0;
+  background: var(--bg-secondary);
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: var(--space-16);
+  align-items: center;
+}
+
+.intro-text {
+  font-size: var(--font-size-lg);
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-8);
+}
+
+.specialties {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.specialty-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--text-secondary);
+}
+
+.specialty-icon {
+  font-size: var(--font-size-lg);
+}
+
+.contact-image {
+  width: 100%;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-xl);
+  margin-bottom: var(--space-4);
+}
+
+.availability-status {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  justify-content: center;
+  padding: var(--space-3);
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--success);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+.contact-methods {
+  padding: var(--space-24) 0;
+  background: var(--bg-primary);
+}
+
+.methods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-8);
+  margin-top: var(--space-12);
+}
+
+.method-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  text-align: center;
+  transition: transform var(--transition-normal);
+}
+
+.method-card:hover {
+  transform: translateY(-4px);
+}
+
+.method-card.priority {
+  border-color: var(--primary);
+  background: linear-gradient(135deg, rgba(0, 102, 255, 0.05) 0%, rgba(0, 212, 170, 0.05) 100%);
+}
+
+.method-icon {
+  font-size: 3rem;
+  margin-bottom: var(--space-4);
+}
+
+.method-card h3 {
+  color: var(--text-primary);
+  margin-bottom: var(--space-3);
+}
+
+.method-card p {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-6);
+}
+
+.method-link {
+  display: block;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-3);
+  word-break: break-all;
+}
+
+.response-time {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.contact-form-section {
+  padding: var(--space-24) 0;
+  background: var(--bg-secondary);
+}
+
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-12);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: var(--space-4);
+  color: var(--text-primary);
+}
+
+.form-description {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-10);
+  line-height: 1.6;
+}
+
+.interview-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-family: inherit;
+  transition: border-color var(--transition-normal);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.topic-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+.topic-chips input[type="checkbox"] {
+  display: none;
+}
+
+.chip-label {
+  background: var(--bg-secondary);
+  border: 2px solid var(--border);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  display: inline-block;
+}
+
+.topic-chips input[type="checkbox"]:checked + .chip-label {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.submit-btn {
+  margin-top: var(--space-4);
+  align-self: center;
+  min-width: 250px;
+}
+
+.quick-facts {
+  padding: var(--space-24) 0;
+  background: var(--bg-primary);
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-6);
+  margin-top: var(--space-12);
+}
+
+.fact-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  text-align: center;
+}
+
+.fact-icon {
+  font-size: 2rem;
+  margin-bottom: var(--space-3);
+}
+
+.fact-item h4 {
+  color: var(--primary);
+  margin-bottom: var(--space-2);
+}
+
+.fact-item p {
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+@media (max-width: 768px) {
+  .intro-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    text-align: center;
+  }
+  
+  .specialties {
+    grid-template-columns: 1fr;
+  }
+  
+  .methods-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-container {
+    padding: var(--space-8);
+    margin: 0 var(--space-4);
+  }
+  
+  .topic-chips {
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+// Enhanced form handling
+document.getElementById('interviewForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  // Get form data
+  const formData = new FormData(e.target);
+  const topics = Array.from(document.querySelectorAll('input[name="topics"]:checked'))
+    .map(cb => cb.value).join(', ');
+  
+  // Create email subject and body
+  const subject = `Interview Request from ${formData.get('name')}`;
+  const body = `
+Interview Request Details:
+
+Name: ${formData.get('name')}
+Organization: ${formData.get('organization') || 'Not specified'}
+Email: ${formData.get('email')}
+Language: ${formData.get('language')}
+Format: ${formData.get('format')}
+Topics: ${topics}
+Timeline: ${formData.get('timeline') || 'Not specified'}
+
+Interview Proposal:
+${formData.get('message')}
+
+---
+Sent from vladislav-zholudz.com contact form
+  `.trim();
+  
+  // Create mailto link
+  const mailtoLink = `mailto:interviews@vladislav-zholudz.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  
+  // Open email client
+  window.location.href = mailtoLink;
+  
+  // Show confirmation
+  alert('Opening your email client... Please send the prepared email to complete your interview request.');
+});
+</script>
 </body>
 </html>
