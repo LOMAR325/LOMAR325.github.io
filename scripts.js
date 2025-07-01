@@ -278,7 +278,7 @@ class PageManager {
       if (i < text.length) {
         subtitle.textContent += text.charAt(i);
         i++;
-        setTimeout(typeWriter, 50);
+        setTimeout(typeWriter, 30);
       }
     };
 

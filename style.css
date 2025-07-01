@@ -180,9 +180,6 @@ body {
 
 .nav-link::after {
   content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 0;
   height: 2px;
   background: var(--primary);
@@ -352,7 +349,6 @@ body {
 }
 
 .hero-actions {
-  display: flex;
   gap: var(--space-4);
   flex-wrap: wrap;
 }
@@ -382,7 +378,6 @@ body {
   height: 320px;
   object-fit: cover;
   border-radius: var(--radius-xl);
-  margin-bottom: var(--space-4);
 }
 
 .profile-overlay {
@@ -750,8 +745,7 @@ body {
 /* ========================= Footer ========================= */
 .footer {
   background: var(--bg-primary);
-  border-top: 1px solid var(--border);
-  padding: var(--space-12) 0 var(--space-8);
+  padding: var(--space-4) 0 var(--space-4);
 }
 
 .footer-content {
@@ -790,8 +784,6 @@ body {
 
 .footer-bottom {
   text-align: center;
-  padding-top: var(--space-8);
-  border-top: 1px solid var(--border);
 }
 
 .footer-bottom p {
@@ -834,6 +826,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .hero-content {
+    padding-bottom: var(--space-8);
+  }
   .container {
     padding: 0 var(--space-4);
   }
@@ -843,7 +838,6 @@ body {
   }
   
   .nav {
-    position: fixed;
     top: var(--header-height);
     left: 0;
     right: 0;
@@ -858,6 +852,7 @@ body {
   
   .nav.open {
     transform: translateY(0);
+    position: absolute;
   }
   
   .burger {
@@ -878,6 +873,7 @@ body {
   
   .hero-title {
     font-size: var(--font-size-4xl);
+    margin-top: var(--space-8);
   }
   
   .hero-subtitle {
@@ -892,7 +888,9 @@ body {
   .section-title {
     font-size: var(--font-size-3xl);
   }
-  
+  #mb-num {
+    margin-bottom: var(--space-3);
+  }
   .project-header h3 {
     font-size: var(--font-size-2xl);
   }
